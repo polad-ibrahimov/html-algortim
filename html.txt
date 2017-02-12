@@ -1,0 +1,144 @@
+əsas html kodları
+<!DOCTYPE>  - sənədin növünü müəyyənləşdirir. html teqi deyil. sadəcə hatmlin hansı versiyada olduğunu brauzerə bildirir.
+<html> - html sənəd müəyyənləşdirir. <Html> teq (<! DOCTYPE> teq istisna olmaqla) bütün digər HTML elementləri üçün konteyner rolu oynayır.
+<title> - sənəd üçün bir mövzu müəyyən edir.
+<body> - sənədin bədənini müəyyənləşdirir. <Body> elementi mətn, bağlantılar, şəkillər, cədvəllər, siyahıları, kimi HTML sənəd bütün məzmunu ehtiva edir.
+<h1> to <h6> - başlıqları müəyyənləşdirir.
+<p> - paraqflari mmüəyyənləşdirir.
+<br> - yeni sətrə keçmək üçün lazım olur.
+<hr> - xətt çəkir.
+<!--...--> - şərh müəyyənləşdirir.
+
+Formatting (üslüb)
+<abbr> - qısaltmanı müəyyənləşdiri.
+<address> - Bir sənəd / məqalənin müəllifi / sahibi üçün əlaqə məlumatı müəyyən edir.
+<b> - qalın mətin.
+<bdi> - Mətn istiqaməti fərqli olan bir mətni digər mətnlərdən ayırır.
+<bdo> - Cari mətn istiqamətini ləğv edir.
+<blockquote> - başqa mənbədən sitat bir bölmə müəyyənləşdirir.
+<cite> - bir iş adı müəyyənləşdirir.
+<code> - kompüter kodu bir parça müəyyən edir.
+<del> - bir sənəd silinmişdir mətn müəyyənləşdirir.
+<em> - vurğulandı mətn kimi göstərir.
+<i> - mətni italik edir.
+<ins> - əlavə olunmuş mətni müəyyən edir.
+<kbd> - klaviatura daxil müəyyənləşdirir.
+<mark> - qeyd / qeyd mətn müəyyənləşdirir.
+<meter> - məlum daxilində bir skalyar ölçü müəyyən edir.
+<pre> - element preformatted mətn blokunun müəyyən edir. Bu mətn adətən sözlər arasında boşluq ilə orantısız yazı göstərilir. cari olaraq, dalbadal gələn kodu fəzalarında hər hansı bir sayı, web page biri kimi görünür.
+<progress> - Vəzifəsi başa tərəqqi keçirmək üçün istifadə olunur. JavaScript keçir dəyəri dəyişdirilməsi.
+<q> - qısa kotirovka müəyyən edir.
+<rp> - Yaqut notları bilmir ki brauzerlərdə göstərmək üçün nə müəyyən edir.
+<rt> - (Şərqi Asiya mətbəə üçün) simvol izahı / tələffüz müəyyən edir.
+<ruby> - (Şərqi Asiya mətbəə üçün) ruby annotasiya müəyyənləşdirir
+<s> - doğru mətn müəyyənləşdirir
+<samp> - bir kompüter proqramı nümunə çıxış müəyyənləşdirir
+<small> - kiçik mətn müəyyənləşdirir.
+<strong> - mühüm mətn müəyyənləşdirir
+<sub> - alt indeks mətn müəyyən edir.
+<sup> - Yuxarı indeks mətn müəyyən edir.
+<time> - tarix / vaxt müəyyənləşdirir. 
+<u> - normal mətn üslub baxımından fərqli mətn müəyyənləşdirir
+<var> - bir dəyişən müəyyən edir
+<wbr> - mümkün xətt-ara müəyyənləşdirir.
+
+Forms and Input
+<form> - istifadəçi girişi üçün bir HTML forma müəyyənləşdirir
+<input> - istifadəçi məlumatları daxil edə bilərsiniz giriş sahəsində göstərir.
+<Input> elementləri input data istifadəçilər imkan giriş nəzarət bəyan etmək üçün <form> elementi daxilində istifadə olunur.
+Giriş sahəsində type atributu asılı olaraq, bir çox yollarla dəyişə bilər.
+<textarea> -  çox-line mətn daxil nəzarət müəyyən edir.
+A mətn sahəsi simvol sınırsız sayı aça bilər, və mətn sabit eni font (adətən Courier) ilə göstərir.
+<button> - klik düyməsini müəyyənləşdirir
+<select> - açılan siyahısı müəyyənləşdirir.
+<optgroup> - Bir açılan siyahıdan müvafiq variantları bir qrup müəyyən edir.
+<option> - bir açılan siyahıdan bir seçim müəyyənləşdirir.
+<label> - Bir <input> element üçün bir etiket müəyyən edir
+<fieldset> - qruplar şəklində elementləri bağlıyir
+<legend> - bir <fieldset> element üçün mövzu müəyyənləşdirir
+<datalist> - daxil nəzarət üçün əvvəlcədən müəyyən variantları bir siyahısını göstərir
+<keygen> - (Formaları üçün) əsas cüt generator sahəsində müəyyən edir
+<output> - Bir hesablanma nəticəsini müəyyən edir
+
+Frames (çərçivələr)
+<iframe> - bir satır daxili çərçivəsində müəyyənləşdirir
+
+Images
+<img> - bir resim müəyyənləşdirir. src və alt: <img> teq iki tələb atributları var.
+<map> - şəkil xəritəsini müəyyən edir
+<area> - bir görüntü xəritədə daxili sahəsi müəyyənləşdirir
+<canvas> - scripting vasitəsilə qrafik çəkmək üçün istifadə (adətən JavaScript)
+<figcaption> - bir <figure> element üçün mövzu müəyyənləşdirir
+<figure> - müstəqil məzmun göstərir
+<picture> - image resursları üçün konteyner müəyyən edir
+
+Audio / Video
+<audio> - səs məzmunu müəyyən edir
+<source> - (<video>, <audio> and <picture>) media elementləri üçün çox media resursları müəyyən edir
+<track> - (<Video> və <audio>) media elementləri üçün mətn parçaları müəyyən edir
+<video> - video və ya film müəyyənləşdirir.
+
+
+Links
+<a> - bir keçid müəyyən edir
+<link> - sənəd və xarici resurs arasında əlaqələr müəyyənləşdirir
+<nav> - naviqasiya links müəyyən edir.
+
+
+Lists
+<ul> - fərqli siyahı yaratmaq üçün istifadə olunur.
+<ol> - sifariş siyahısı yaratmaq üçün istifadə olunur.
+<li> - kataloq və menyu siyahıları bir siyahısı maddə ifadə üçün istifadə olunur.
+<dl> - müəyyən bir siyahını elan üçün istifadə olunur. Bu tag <dd> tag ərzində istifadə olunur.
+<dt> -təsviri siyahısına bir dövr / adını müəyyənləşdirir
+<dd> -siyahıda müəyyən təsviri ifadə üçün istifadə olunur.
+<menu> -əmrləri siyahısı / menyu müəyyən edir
+<menuitem> -menyu elementi müəyyən edilməsi üçün istifadə olunur.
+
+
+Tables
+<table> - cədvəl müəyyən edir.
+<caption> - HTML <caption> tag bir cədvəl üçün mövzu yaratmaq üçün istifadə olunur. Cədvəl başına yalnız bir mövzu ola bilər.
+<th> - Cədvəl üçün başlıq göstərir
+<tr> - Cədvəlin sətirləri.
+<td> - Cədvəlin sütunları
+<thead> - cədvəlin başlıqlarını qruplaşdırır
+<tbody> - cədvəlin bədənini qruplaşdırır
+<tfoot> - cədvəlin alt mazmunu qruplaşdırır
+<col> - HTML <col> tag qrup müəlliflər birlikdə masa sütun üçün texniki atributu imkan verir. birlikdə struktur deyil qrup sütun edir - ki, element rolu.
+<colgroup> - bir qrup xassələri ifadə üçün istifadə olunur. 
+Bir colgroup ərzində bir sütun üçün müxtəlif xassələri müraciət etmək lazımdır.
+
+
+Styles and Semantics
+<style> - stillər elan üçün istifadə olunur.
+<div> - sənəd bir hissəsində müəyyən edilməsi üçün istifadə olunur. div tag ilə birlikdə HTML elementləri qrup böyük bölmələr və CSS ilə format edə bilərsiniz.
+<span> - HTML <span> tag qruplaşdırılması və elementləri inline üslub tətbiq üçün istifadə olunur.
+span tag və div tag arasında bir fərq yoxdur. div tag blok səviyyəli content ilə istifadə olunur ederken span tag inline elementlər istifadə olunur.
+<header> - HTML <header> tag bir sənəd və ya bölüm üçün bir mövzu müəyyən edir.
+<footer> - HTML <footer> tag bir sənəd və ya bölüm üçün bir footer müəyyən edir.
+<main> - HTML <main> teq sənəd əsas və ya mühüm content göstərir. Bu səhifə başına yalnız bir dəfə istifadə edilə bilər və  <article>, <aside>, <footer>, <header>, <nav>elementi kimi istifadə edilə bilməz.
+<section> - bir sənəd bir bölmə göstərir.
+<article> - site, sənəd, səhifə və ya proqram müstəqil tərkibi ifadə edən blog, forum poçt, qəzet məqaləsində s istifadə olunur.
+<aside> - teq əlaqədar bölmə kənara bir səhifə bir bölmə müəyyən etmək üçün istifadə olunur. Bu teq glossary anlayışlar, müəllif tərcümeyi-hal, müəllif profil və s. Üçün istifadə edilə bilər
+<details> - istifadəçi keçirmək və ya gizlədə bilərsiniz ki, əlavə ətraflı müəyyənləşdirir
+<dialog> - informasiya qutusu müəyyən edilməsi üçün istifadə olunur.
+<summary> - ətraflı məlumat üçün xülasə, mövzu və ya əfsanə göstərir.
+<data> - bir maşın-oxunaqlı tərcümə ilə verilmiş məzmun əlaqələndirir.
+
+
+Meta Info
+<head> - HTML <head> tag HTML sənəd rəhbəri bölmə ifadə üçün istifadə olunur. baş tags daxilində daxil Tags brauzer pəncərəsində göstərilir deyil.
+<meta> - HTML <meta> tag HTML sənəd üçün metadata elan üçün istifadə olunur.
+<base> - HTML <base> tag nisbi links üçün baza URI və ya URL müəyyən etmək üçün istifadə olunur.
+
+
+Programming
+<script> - HTML <script> tag HTML sənəd çərçivəsində bir script (məsələn JavaScript kimi) elan üçün istifadə olunur.
+<noscript> - bir noscript bölmə göstərir. Bu tag alternativ mətn mesajı keçirmək üçün istifadə olunur.
+<embed> - Xarici (qeyri-HTML) tətbiqi üçün konteyner müəyyən edir
+<object> - əlaqədar obyekt müəyyənləşdirir
+<param> - obyekt üçün bir parametri müəyyən edir.
+
+
+
