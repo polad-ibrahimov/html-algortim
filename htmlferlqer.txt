@@ -1,0 +1,20 @@
+HTML və HTML5 arasında fərq
+HTML5 HTML-in digər verisiyalarından daha inkişah etmişdir və bu kimi yeni teqleri var <header>, <footer>, <nav>, <audio>, <video>, <main> ve s.
+HTML ilə DOCTYPE bəyannamə çox uzundur <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+HTML5 DOCTYPE bəyannamə çox sadədir <!DOCTYPE html> 
+HTML xarakter kodlaması da artıq <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+html5 kodlaması (charset) bəyannamə də çox sadədir <meta charset="UTF-8">
+Audio və Video HTML4 hissəsi deyil
+Audio və Video HTML5 tərkib hissəsidir
+Vector Graphics və s VML, Silverlight, Flash kimi texnologiyaların köməyi ilə mümkündür
+Vector qrafik HTML5 məsələn ayrılmaz hissəsidir SVG və canvas
+Mobil cihazlar üçün gəlir xüsusilə, əgər hər hansı bir web gəzən istifadəçi əsl GeoLocation almaq üçün demək olar ki, mümkün deyil.
+HTML5 JS GeoLocation API hər hansı bir web gəzən istifadəçi yerini müəyyən edir (göstərilən istifadəçi imkan verir)
+HTML5 cookies istifadə edir.
+Bu cookies yerinə yerli saxlama təmin edir.
+Mümkün deyil dairə, düzbucaqlı, üçbucaq kimi şekiller cəlb etmək.
+HTML5 istifadə edərək dairə, düzbucaqlı, üçbucaq kimi şekiller cəlb edə bilər.
+JavaScript brauzerinizin run imkan vermir. JS browser interface eyni mövzu çalışır.
+JavaScript fonunda çalıştırmak üçün imkan verir. Bu, HTML5 JS Web işçi API mümkündür
+bütün köhnə brauzerlər ilə işləyir
+bütün yeni brauzer tərəfindən dəstəklənir.
